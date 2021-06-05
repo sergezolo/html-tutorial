@@ -7,6 +7,7 @@
 
 --------------------------------------------------------
 ### BASIC HTML PAGE STRUCTURE
+```
 <!DOCTYPE html> ==== HTML VERSION
 <html>          === ROOT ELEMENT
     <head>      === INFORMATION ABOUT THE PAGE (META, LINKS, TITLE)
@@ -17,6 +18,8 @@
         ...PAGE CONTENT
     </body>
 </html>
+```
+
 --------------------------------------------------------
 
 
