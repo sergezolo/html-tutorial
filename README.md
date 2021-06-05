@@ -1,4 +1,4 @@
-# HTML Tutorial [FreeCodeCamp.org] (http://freecodecamp.com)
+# HTML Tutorial [FreeCodeCamp](http://freecodecamp.com)
 
 **! - Emmet Abbreviation for starting a new HTML page**
 
@@ -7,7 +7,7 @@
 
 --------------------------------------------------------
 ### BASIC HTML PAGE STRUCTURE
-`<<!DOCTYPE html> ==== HTML VERSION
+<!DOCTYPE html> ==== HTML VERSION
 <html>          === ROOT ELEMENT
     <head>      === INFORMATION ABOUT THE PAGE (META, LINKS, TITLE)
         <title>Document</title> === PAGE TITLE
@@ -16,7 +16,7 @@
     <body>      === WHAT WILL BE DISPLAYED ON THE PAGE 
         ...PAGE CONTENT
     </body>
-</html>>`
+</html>
 --------------------------------------------------------
 
 
