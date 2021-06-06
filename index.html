@@ -1,20 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="about.html">About</a>
+    <h1 id="top">Header One</h1>
+    <h2>Header Two</h2>
+    <h3>Header Three</h3>
+    <h4>Header Four</h4>
+    <h5>Header Five</h5>
+    <h6>Header Six</h6>
+    <p>Paragraph</p>
+    <br>
+    <br>
+    <br>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi officia obcaecati accusamus expedita incidunt consequuntur quod at quaerat voluptatum, dignissimos optio recusandae adipisci, sapiente debitis quia libero magni! Maxime temporibus est voluptas, suscipit ipsam sunt esse. Qui dolorem accusamus in quos aliquid. Molestias quidem libero reiciendis odit et praesentium velit nam odio, quam excepturi, unde vel?</p>
+    <img src="/html-tutorial/images/img.jpeg" alt="image of a coin 1"> <!-- does not display images properly -->
+    <img src="images/img.jpeg" alt="image of a coin 2">
+    <img src="./images/img.jpeg" alt="image of a coin 3"> <!-- !!! best practice -->
+    <img src="./images/keyboard.jpeg" width="600" alt="image of a keyboard">
 
-    <head>
-        <title>first page</title>
-    </head>
+    <a href="https://www.usmint.gov/">
+        <img src="./images/img.jpeg" alt="image of a coin 3"> 
+    </a>
 
-    <body>
-        <h1>Header One</h1>
-        <h2>Header Two</h2>
-        <h3>Header Three</h3>
-        <h4>Header Four</h4>
-        <h5>Header Five</h5>
-        <h6>Header Six</h6>
-        <p>Paragraph</p>
-    </body>
+    <a href="#">Dummy Link</a>
+    <br>
+    <br>
+    <a href="https://translate.google.com/?hl=en&tab=wT" target="_blank">Translate!</a> <!-- target="_blank" opens the link in a new tab -->
+    <br>
+    <br>
+    <a href="#top">back to the top</a> <!-- navigates to an element by id -->
 
+    <!-- <sup> and <sub> elements -->
+    <p>THIS IS AN EXAMPLE OF <sup>SUP</sup> AND <sub>SUB</sub> ELEMENTS</p>
+    <br>
+    <p>THIS IS AN EXAMPLE OF <strong>STRONG</strong> AND <em>EMPHASIS</em> ELEMENTS</p>
+    <br>
+    <p>copyright &copy;</p>
+    <br>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <br>
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+    <br>
+    <ul>
+        <li>one</li>
+            <ol>
+                <li>a</li>
+                <li>b</li>
+            </ol>
+        <li>two</li>
+            <ul>
+                <li>a</li>
+                <li>b</li>
+            </ul>
+        <li>three</li>
+    </ul>
+    <br>
+    <table>
+        <tr>
+            <th>#</th>
+            <th>num</th>
+            <th>Number</th>
+        </tr>
+        <tr>
+            <td>one</td>
+            <td>two</td>
+            <td>three</td>
+        </tr>
+    </table>
+    <br>
+    <form action="" method="">
+        <input type="text" name="name" id="">
+        <button type="submit">SUBMIT</button> 
+    </form>
+    <br>
+    <input action="" method="">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" value="email@mail.gov">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="password">
+        <br>
+        <p>TextArea</p>
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+        <br>
+        <p>RadioButton</p>
+        <!-- 
+            you can select only one option!!!! 
+            input name attribute should be the same
+            input value attribute is what you pass
+        -->
+        <input type="radio" name="coding" id="" value="ruby">Ruby</input>
+        <input type="radio" name="coding" id="" value="js">JS</input>
+        <input type="radio" name="coding" id="" value="java">Java</input>
+        <br>
+
+        <input type="submit" value="SUBMIT PLEASE">
+    </form>
+    <br>
+
+
+</body>
 </html>
 
 

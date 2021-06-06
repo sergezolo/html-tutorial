@@ -1,6 +1,7 @@
 # HTML Tutorial [FreeCodeCamp](http://freecodecamp.com)
 
 **! - Emmet Abbreviation for starting a new HTML page**
+**lorem or loremXX (XX - number of symbols) - Emmet command for dummy text**
 
 ### HTML - Hyper Text Markup Language
 - responsible for webpage structure
