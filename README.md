@@ -1,6 +1,6 @@
 # HTML Tutorial [FreeCodeCamp](http://freecodecamp.com)
 
-**! - Emmet Abbreviation for starting a new HTML page**
+**! - Emmet Abbreviation for starting a new HTML page** <br>
 **lorem or loremXX (XX - number of symbols) - Emmet command for dummy text**
 
 ### HTML - Hyper Text Markup Language
