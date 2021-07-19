@@ -1,10 +1,13 @@
-# HTML Tutorial [FreeCodeCamp](http://freecodecamp.com)
+# HTML5 - CSS3 Tutorial [FreeCodeCamp](http://freecodecamp.com)
 
 **! - Emmet Abbreviation for starting a new HTML page** <br>
 **lorem or loremXX (XX - number of symbols) - Emmet command for dummy text**
 
 ### HTML - Hyper Text Markup Language
-- responsible for webpage structure
+- responsible for a webpage structure
+
+### CSS - Cascading Style Sheets
+- responsible for the aesthetics and the visual appeal of a page
 
 --------------------------------------------------------
 ### BASIC HTML PAGE STRUCTURE
