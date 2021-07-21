@@ -1,3 +1,94 @@
-h1 {
+/* 
+ABSOLUTE UNITS
+cm - centimeters
+mm - millimeters
+in - inches (1inch = 96px = 2.54cm)
+px - pixels (1px = 1/96 of 1inch)
+pt - points (1pt = 1/72 of 1inch)
+pc - picas (1pc = 12pt)
+*/
+
+/* 
+RELATIVE UNITS
+rem - Relative to font-size of the root element
+em - Relative to the font-size of the element (2em = 2X of the current font)
+ex - Relative to the x-height of the current font (rarely used) 
+ch - Relative to the width of the "0"(zero) 
+vw - Relative to 1% of the width of the viewport* 
+vh - Relative to 1% of the height of the viewport* 
+vmin - Relative to 1% of viewport's* smaller dimension
+vmax - Relative to 1% of viewport's* larger dimension
+% - Relative to the parent element
+*/
+
+/* CSS RULE 
+selector{
+    **declaration block**
+    property: value;
+}
+*/
+
+/* 
+ID selector
+#id-name{
+    . . .
+}
+
+CLASS selector
+.class-name{
+    . . .
+}
+
+
+*/
+
+body{
+    color: blue;
+}
+
+h1{
     color: red;
 }
+
+#top{
+    color: olivedrab;
+    background-color: black;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+h2{
+    color: green;
+}
+
+p{
+    color: purple;
+}
+
+/* group of selectors */
+h3,h4{
+    color: pink;
+}
+
+.yellow{
+    color: yellow;
+    background-color:grey;
+}
+
+.orange{
+    color: orange;
+    background-color: darkred;
+}
+
+div{
+    color: red;
+    background-color: black;
+}
+
+span{
+    text-transform: uppercase;
+    background-color: darkblue;
+}
+
