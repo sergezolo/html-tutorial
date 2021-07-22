@@ -1,0 +1,76 @@
+.banner{
+    border: 5px solid red;
+    padding: 10px;
+    overflow: hidden;
+}
+.one{
+    float: right;
+}
+.two{
+    float: left;
+    height: 200px;
+}
+p{
+    clear: right;
+    clear: both;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.odin{
+    float: left;
+    background: red;
+    height: 200px;
+    width: 33.33%;
+}
+.dva{
+    float: left;
+    background: blue;
+    height: 200px;
+    width: 33.33%;
+}
+.tri{
+    float: left;
+    background: green;
+    height: 200px;
+    width: 33.33%;
+}
+h1{
+    clear: both;
+}
+.ps{
+    border: 3px solid red;
+    background: pink;
+    margin-top: 40px;
+    position: static;
+}
+.one-p{
+    background: blue;
+    position: relative;
+    /* top: 10px;
+    left: 20rem; */
+    right: 50%;
+    bottom: 20px;
+}
+.two-p{
+    background: green;
+    position: relative;
+}
+.special{
+    background:lightblue;
+    font-size: 20px;
+    position: absolute;
+    /* position relative to a parent with position relative or <body> when none of parents have it  */
+    top: 50%;
+    right: 50%;
+}
+button{
+    background: red;
+    font-size: 40px;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+}

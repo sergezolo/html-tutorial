@@ -1,0 +1,37 @@
+/* 
+background repeat
+background size
+background position
+background attachment
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    min-height: 100vh;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.big-img{
+    background: url('./images/001.jpeg');
+    /* background-repeat: round; */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.small-img{
+    background: url('./images/002.jpeg');
+    border: 2px solid red;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: bottom right;
+    /* background-position: X% Y% */
+    background-position: 20% 40%;
+    background-attachment: fixed;
+}
+/* !!!CHECK OUT GRADIENTS */

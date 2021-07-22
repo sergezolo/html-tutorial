@@ -1,0 +1,55 @@
+/* 
+Ultimate CSS Gradient Generator
+https: //www.colorzilla.com/gradient-editor/
+*/
+
+/* body{
+    display: flex;
+} */
+.one, .two, .three, .four, .five, .six{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+.one{
+    background: linear-gradient(red, green);
+}
+.two{
+    background: linear-gradient(to top, red, green, blue);
+}
+.three{
+    background: linear-gradient(150deg, red, green);
+}
+.four{
+    background: linear-gradient(to top left, red, green);
+}
+.five{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9));
+}
+.six{
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9))
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner, .header {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    color: orange;
+}
+.banner{
+    background: url('./images/003.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5 )), url('./images/003.jpeg') center/cover no-repeat fixed;
+}
