@@ -1,0 +1,89 @@
+/* 
+PADDING
+padding-top: XX;
+padding-bottom: XX;
+padding-left: XX;
+padding-right: XX;
+padding: XX; --- all sides
+padding: XX XX; --- TOP-BOTTOM and LEFT-RIGHT
+padding: XX XX XX XX; --- TOP -> RIGHT -> BOTTOM -> LEFT;
+*/
+/*
+MARGIN
+margin-top: XX;
+margin-bottom: XX;
+margin-left: XX;
+margin-right: XX;
+margin: XX; - all sides 
+margin: XX XX; - TOP-BOTTOM and LEFT-RIGHT
+margin: XX XX XX XX; - TOP -> RIGHT -> BOTTOM -> LEFT;
+*/
+/*
+BORDER
+border: width style color;
+border-bottom-style: solid; 
+etc 
+*/
+
+
+h1{
+    background: red;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 25px;
+    padding-right: 50px;
+}
+p{
+    background: blue;
+    /* padding: 50px; - same padding on top - bottom -left - right */
+    /* padding: 20px 60px; padding XX XX - padding TOP-BOTTOM and LEFT-RIGHT*/
+    padding: 10px 80px 40px 20px; /*top-right-bottom-left*/
+}
+h2 {
+    background: pink;
+    padding: 20px;
+    margin-bottom: 0;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: red;
+}
+.h-two{
+    background: lightblue;
+    padding: 20px;
+    margin-top: 0;
+    border: 5px dotted black;
+}
+h3 {
+    background: orange;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.h-three {
+    background: gray;
+    padding: 20px;
+    border: 5px dotted black;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+.buttons{
+    margin: 3rem;
+}
+a{
+    background: #689f3f;
+    text-decoration: none;
+    padding: 1.2rem 1.5rem;
+    color: #222;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 20px;
+}
+#one{
+    border: 0.2rem solid #222;
+}
+#two{
+    outline: 0.2rem;
+    outline-style: solid;
+    outline-color: #222;
+    outline-offset: 10px;
+}

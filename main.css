@@ -39,7 +39,10 @@ CLASS selector
     . . .
 }
 
-
+UNIVERSAL selector
+*{
+    . . .
+}
 */
 
 body{

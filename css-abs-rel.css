@@ -1,0 +1,131 @@
+/* 
+ABSOLUTE UNITS
+cm - centimeters
+mm - millimeters
+in - inches (1inch = 96px = 2.54cm)
+px - pixels (1px = 1/96 of 1inch)
+pt - points (1pt = 1/72 of 1inch)
+pc - picas (1pc = 12pt)
+*/
+
+/* 
+RELATIVE UNITS
+rem - Relative to font-size of the root element
+em - Relative to the font-size of the element (2em = 2X of the current font)
+ex - Relative to the x-height of the current font (rarely used) 
+ch - Relative to the width of the "0"(zero) 
+vw - Relative to 1% of the width of the viewport* 
+vh - Relative to 1% of the height of the viewport* 
+vmin - Relative to 1% of viewport's* smaller dimension
+vmax - Relative to 1% of viewport's* larger dimension
+% - Relative to the parent element
+*/
+
+/* CSS RULE 
+selector{
+    **declaration block**
+    property: value;
+}
+*/
+
+/* 
+ID selector
+#id-name{
+    . . .
+}
+
+CLASS selector
+.class-name{
+    . . .
+}
+
+UNIVERSAL selector
+*{
+    . . .
+}
+*/
+
+/*
+RGB colors
+rgb(255, 0, 0) - red
+rgb(0, 255, 0) - green
+rgb(0, 0, 255) - blue
+rgb(255, 255, 255) - white
+rgb(0, 0, 0) - black
+*/
+
+/* !!!NEED TO CHECK OUT HSL (hue, saturation, lightness)*/
+
+/* 
+HEX colors
+#RRGGBB
+123456789 A(10) B(11) C(12) D(13) E(14) F(15)
+#FF0000 - red
+#00FF00 - green
+#000 - black
+#FFF - white
+*/
+
+#first{
+    color: lightgrey;
+    background-color: chocolate;
+}
+#second{
+    color: rgb(255, 0, 0);
+    background:rgb(0, 0, 0); /*used for background colors and images*/
+}
+#third{
+    color:rgb(255, 0, 0);
+    background: rgba(0, 0, 0, 0.809); /*color + opacity*/
+    /*RGBA - red-green-blue-alpha (opacity)*/
+}
+h2{
+    color: #ff0000;
+    background: #000;
+}
+#absolute{
+    font-size: 40px;
+    width: 300px;
+    height: 150px;
+    background: blue;
+}
+.outer{
+    width: 500px;
+    height: 200px;
+    background: blue;
+}
+.inner{
+    width: 100%;
+    height: 50%;
+    background: red;
+}
+
+div{
+    font-size: 20px;
+}
+.relative{
+    font-size: 2em;
+    /*em - related to the parent styling (div)*/
+    /*rem - related to the root of the document (html)*/
+}
+.absolutee{
+    font-size: 32px;
+}
+
+/*VIEW WIDTH & HEIGHT*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 50vw;
+    height: 50vh;
+    background: red;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+    background: blue;
+}
+

@@ -1,0 +1,61 @@
+/* 
+GOOGLE FONTS
+https: //fonts.google.com/
+pick the font and copy the link into the HTML file or import it directly to css file.
+*/
+
+*{
+    margin: 0;
+}
+.navbar{
+    background: rgb(17, 17, 56);
+    height: 100px;
+    color: white;
+    font-size: 3rem;
+}
+.banner{
+    background: rgb(150, 177, 213);
+    min-height: calc(100vh - 100px);
+    /*calc() - function for calculating height (100% - 100px of navbar) */
+}
+body{
+    font-family: 'Roboto', sans-serif; /*comes from google imported fonts*/
+}
+.main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.subheading{
+    font-style: unset;
+}
+.one{
+    font-weight: 200; /*makes font bold (can use exact words: bold, bolder. light, lighter, etc*/
+    font-style: oblique;
+    text-align: right;
+}
+.two{
+    font-weight: 1000;
+    font-style: normal;
+    text-indent: 500px; /*space in front of the first line*/
+}
+/* ------------------------------------------------ */
+h1{
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+.p-one{
+    line-height: 0.5em;
+}
+.p-two{
+    letter-spacing: 10px;
+    text-decoration: overline;
+    line-height: 5rem;
+}
+.p-three {
+    word-spacing: 20px;
+    text-decoration: underline;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
